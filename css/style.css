@@ -1,0 +1,53 @@
+body{
+  font-family: arial;
+  background: #b2bec3;
+  padding:0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  margin: 0;
+}
+h1::selection{
+  background:#fff;
+  color: #2980b9;
+}
+#main{
+  width: 700px;
+  margin: 0 auto;
+  background: white;
+  font-size: 19px;
+}
+#header{
+  background: #2980b9;
+  color: #fff;
+  padding: 15px;
+}
+
+#table-data{
+  padding: 15px;
+  min-height: 500px;
+}
+#table-data th{
+  background:#27ae60;
+  color: #fff;
+}
+#table-data tr:nth-child(odd){
+  background: #ecf0f1;
+}
+#pagination{
+  text-align: center;
+  padding: 10px;
+}
+#pagination a{
+  background: #2980b9;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding:5px 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+#pagination a.active{
+  background: #27ae60;
+}
