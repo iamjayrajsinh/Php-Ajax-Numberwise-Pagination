@@ -10,7 +10,7 @@
 <body>
   <div id="main">
     <div id="header">
-      <h1>PHP & Ajax Pagination</h1>
+      <h1><?php echo "PHP & Ajax Pagination"; ?> </h1>
     </div>
 
     <div id="table-data">
